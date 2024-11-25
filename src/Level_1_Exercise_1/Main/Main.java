@@ -9,7 +9,7 @@ import java.util.Iterator;
 public class Main {
     public static void main(String[] args) {
         ArrayList<Month> months = new ArrayList<Month>();
-        months.add(new Month("Janua ry"));
+        months.add(new Month("January"));
         months.add(new Month("February"));
         months.add(new Month("March"));
         months.add(new Month("April"));
