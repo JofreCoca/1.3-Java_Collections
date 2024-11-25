@@ -1,4 +1,6 @@
-package Level_1_Exercise_3;
+package Level_1_Exercise_3.Main;
+
+import Level_1_Exercise_3.Modules.Entrance;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

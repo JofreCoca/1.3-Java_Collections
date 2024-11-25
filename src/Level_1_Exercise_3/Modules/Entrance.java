@@ -1,4 +1,4 @@
-package Level_1_Exercise_3;
+package Level_1_Exercise_3.Modules;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
