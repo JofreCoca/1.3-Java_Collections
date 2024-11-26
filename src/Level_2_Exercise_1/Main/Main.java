@@ -1,4 +1,6 @@
-package Level_2_Exercise_1;
+package Level_2_Exercise_1.Main;
+
+import Level_2_Exercise_1.Modules.Restaurant;
 
 import java.util.HashSet;
 

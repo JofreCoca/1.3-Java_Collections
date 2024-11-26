@@ -1,4 +1,4 @@
-package Level_2_Exercise_1;
+package Level_2_Exercise_1.Modules;
 
 import java.util.Objects;
 
