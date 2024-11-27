@@ -1,6 +1,4 @@
-package Level_1_Exercice_2;
-
-import Level_1_Exercise_1.Modules.Month;
+package Level_1_Exercise_2;
 
 import java.util.ArrayList;
 import java.util.List;
