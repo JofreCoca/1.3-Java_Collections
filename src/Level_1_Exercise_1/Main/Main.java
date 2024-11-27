@@ -5,6 +5,7 @@ import Level_1_Exercise_1.Modules.Month;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.Set;
 
 public class Main {
     public static void main(String[] args) {
@@ -36,16 +37,15 @@ public class Main {
             System.out.println(readArrayListMonths);
         }
 
-        HashSet<Month> hashSet = new HashSet<Month>();
-        hashSet.addAll(months);
-
+        Set<Month> monthSet = new HashSet<>(months);
         System.out.println("\nFor HashSet complet no duplicates");
-        for (Month value : hashSet) {
-            System.out.println(value);
+        for (Month month : monthSet) {
+            System.out.println(month);
         }
 
+
         System.out.println("\nIterator HashSet complet no duplicates");
-        Iterator<Month> it = hashSet.iterator();
+        Iterator<Month> it = monthSet.iterator();
         while (it.hasNext()) {
             System.out.println(it.next().getName());
         }
